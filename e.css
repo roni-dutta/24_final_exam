@@ -1,0 +1,198 @@
+* {
+    margin:0;
+    padding: 0;
+}
+#header {
+    border-top: 2px solid olive;
+}
+#header_logo {
+    display: inline-block;
+    padding: 10px 0 0 10px;
+}
+#header_menu {
+    display:inline-block;
+    margin: 10px 0 0 10px;
+    float:right;
+}
+.header_title {
+    font-size: 10px;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+}
+ul.menu_btn li {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 0 7px;
+    background-color: red;
+    border-radius: 5px;
+}
+ul.menu_btn li a {
+    text-decoration:none;
+}
+#header_welcome,
+#footer_menu {
+    background: linear-gradient(gray, white);
+    border: 1px solid gray;
+}
+#header_welcome p a {
+    text-decoration: none;
+    color: black;
+}
+#header_welcome p:last-child {
+    float: right;
+}
+#header_welcome p:first-child {
+    display: inline-block;
+    padding: 12px;
+}
+#header p {
+    text-align:center;
+}
+.btn_gray a {
+    text-align:center;
+    text-decoration: none;
+    color: black;
+}
+.btn_gray {
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration:none;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 7px;
+}
+#header_info img{
+    vertical-align: middle;
+}
+#newlife_1st_bg {
+    background: url(img/background/002.png);
+    height: 25px;
+}
+#newlife_container {
+    background: url(img/background/003.png),url(img/background/004.png);
+    background-size: 100% auto;
+}
+#newlife_2nd_container {
+    background: url(img/background/001.png);
+    background-repeat: no-repeat;
+    background-position:6% 0;
+}
+#img1 {
+    float:left;
+    width:33%;
+    height:auto;
+}
+#img2 {
+    float:right;
+    width:20%;
+    height:auto;
+    margin-right: 4%;
+}
+#newlife_2nd_container ul {
+    display: table;
+    width: 95%;
+    margin: auto;
+    padding-top: 30px;
+}
+#newlife_2nd_container ul li {
+    background: url(img/border/001.png) repeat-y;
+    display:table-cell;
+    width: 25%;
+    text-align: center;
+}
+.title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+.desc {
+    padding:0 9%;
+    font-size: 14px;
+    text-align:center;
+}
+.banner img {
+    width: 100%;
+}
+#newlife_2nd_container table {
+    width: 85%;
+    margin:auto;
+}
+#newlife_2nd_container table td {
+    padding: 5% 0;
+    position: relative;
+}
+.balloon {
+    background: url(img/item/005.png)no-repeat;
+    height: 111px;
+    width: 115px;
+    text-align:center;
+    padding: 5px 0 5px 0;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
+.button {
+    background:pink;
+    border-radius: 5px;
+    width: 130px;
+    cursor: pointer;
+    text-align:center;
+    margin:auto;
+}
+#newlife_2nd_container table td center img {
+    border: 4px solid white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px 0;
+    width: 80%;
+}
+.one {
+    background:url(img/border/001.png) repeat-y,url(img/border/001.png)right repeat-y,url(img/border/002.png) repeat-x,url(img/border/002.png)bottom repeat-x;
+}
+.two {
+    background:url(img/border/001.png)right repeat-y,url(img/border/002.png) repeat-x,url(img/border/002.png)bottom repeat-x;
+}
+.three {
+    background:url(img/border/001.png) repeat-y,url(img/border/001.png)right repeat-y,url(img/border/002.png)bottom repeat-x;
+}
+.four {
+    background:url(img/border/001.png)right repeat-y,url(img/border/002.png)bottom repeat-x;
+}
+.button2 {
+    background:url(img/background/005.png)repeat-x lightgreen;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align:center;
+    width: 280px;
+    margin: auto;
+}
+#img3 {
+    width: 80%;
+    height: auto;
+}
+p.goToTop a {
+    color: black;
+}
+#footer_menu p {
+    display: inline-block;
+    text-decoration;none;
+}
+#footer_menu p:last-child {
+    float:right;
+}
+#footer_nav ul li a {
+    text-decoration:none;
+    color: black;
+}
+#footer_nav ul li {
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+}
+#copyright {
+    text-align: center;
+    background-color: olive;
+    font-family: 15px;
+}
